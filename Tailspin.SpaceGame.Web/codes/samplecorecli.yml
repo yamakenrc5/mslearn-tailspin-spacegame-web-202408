@@ -1,0 +1,12 @@
+# reference: https://learn.microsoft.com/en-us/azure/devops/pipelines/tasks/reference/?view=azure-pipelines
+# DotNetCoreCLI@2 https://learn.microsoft.com/en-us/azure/devops/pipelines/tasks/reference/dotnet-core-cli-v2?view=azure-pipelines
+# This input currently only accepts arguments for 
+# build, publish, run, test, and custom.
+# If you would like to add arguments for a command not listed, use custom.
+
+task: DotNetCoreCLI@2
+  displayName: 'Build the project'
+  inputs:
+    command: 'build'
+    arguments: '--no-restore --configuration Release'
+    projects: '**/*.csproj'
