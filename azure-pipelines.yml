@@ -1,4 +1,4 @@
-pool: MyAgentPool
+pool: Azure Pipelines
 steps:
 - bash: echo hello world
 - task: DotNetCoreCLI@2
