@@ -1,4 +1,4 @@
-
+[![Build Status](https://dev.azure.com/yamakenrc5/Space%20Game%20-%20web%20-%20Pipeline%20-%20202408/_apis/build/status%2Fbuild-pipeline-%20yamakenrc5.mslearn-tailspin-spacegame-web-202408?branchName=code-workflow)](https://dev.azure.com/yamakenrc5/Space%20Game%20-%20web%20-%20Pipeline%20-%20202408/_build/latest?definitionId=3&branchName=code-workflow)
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
